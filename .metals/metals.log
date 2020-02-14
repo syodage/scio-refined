@@ -1,0 +1,85 @@
+INFO  started: Metals version 0.8.0 in workspace '/Users/shameera/spotify/hackweek/scio-refined'
+INFO  time: initialize in 3.36s
+Feb 13, 2020 9:53:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 710
+ERROR scalafmt: /Users/shameera/spotify/hackweek/scio-refined/build.sbt:5: error: ) expected but string constant found
+organization := "me.shameera"
+                ^
+ERROR scalafmt: /Users/shameera/spotify/hackweek/scio-refined/build.sbt:5: error: ) expected but string constant found
+organization := "me.shameera"
+                ^
+ERROR scalafmt: /Users/shameera/spotify/hackweek/scio-refined/build.sbt:5: error: ) expected but string constant found
+organization := "me.shameera"
+                ^
+ERROR scalafmt: /Users/shameera/spotify/hackweek/scio-refined/build.sbt:5: error: ) expected but string constant found
+organization := "me.shameera"
+                ^
+ERROR scalafmt: /Users/shameera/spotify/hackweek/scio-refined/build.sbt:5: error: ) expected but string constant found
+organization := "me.shameera"
+                ^
+INFO  running '/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/0q/_wxhyj9x7gd_kzq9njn_y6b80000gn/T/metals10782061960047325023/sbt-launch.jar set bloopExportJarClassifiers in Global := Some(Set("sources")) bloopInstall'
+INFO  [info] Loading settings for project global-plugins from idea.sbt ...
+INFO  [info] Loading global plugins from /Users/shameera/.sbt/1.0/plugins
+INFO  [info] Loading settings for project scio-refined-build from metals.sbt ...
+INFO  [info] Loading project definition from /Users/shameera/spotify/hackweek/scio-refined/project
+INFO  [error] [/Users/shameera/spotify/hackweek/scio-refined/build.sbt]:5: ')' expected but string literal found.
+INFO  [error] [/Users/shameera/spotify/hackweek/scio-refined/build.sbt]:18: ';' expected but ',' found.
+INFO  Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? 
+INFO  time: ran 'sbt bloopInstall' in 12s
+INFO  build tool exit: 1
+ERROR sbt command failed: /Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/0q/_wxhyj9x7gd_kzq9njn_y6b80000gn/T/metals10782061960047325023/sbt-launch.jar set bloopExportJarClassifiers in Global := Some(Set("sources")) bloopInstall
+INFO  skipping build import with status 'Dismissed'
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/Core.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+Feb 13, 2020 10:00:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1540
+Feb 13, 2020 10:01:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1720
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+Feb 13, 2020 10:16:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Feb 13, 2020 10:17:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Feb 13, 2020 10:17:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Feb 13, 2020 10:17:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+Feb 13, 2020 10:17:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/src/main/scala/com/spotify/scio/refined/ScioTest.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/src/main/scala/com/spotify/scio/refined/ScioTest.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/src/main/scala/com/spotify/scio/refined/Test.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/src/main/scala/com/spotify/scio/refined/Test.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/ScioTest.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/Test.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/RefinedTypeProvider.scala
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/RefinedTypeProvider.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/RefinedTypeProvider.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/RefinedTypeProvider.scala
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/RefinedTypeProvider.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/core/src/main/scala/com/spotify/scio/refined/RefinedTypeProvider.scala' because it doesn't belong to a build target.
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+Feb 13, 2020 10:21:57 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 357, count -1, length 409
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala' because it doesn't belong to a build target.
+WARN  code navigation does not work for the file '/Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala' because it doesn't belong to a build target.
+Feb 13, 2020 10:25:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
+WARN  no build target for: /Users/shameera/spotify/hackweek/scio-refined/macro/src/main/scala/Benchmark.scala
