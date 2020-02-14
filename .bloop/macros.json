@@ -1,0 +1,163 @@
+{
+    "version": "1.1.2",
+    "project": {
+        "name": "macros",
+        "directory": "/Users/shameera/spotify/hackweek/scio-refined/macros",
+        "workspaceDir": "/Users/shameera/spotify/hackweek/scio-refined",
+        "sources": [
+            "/Users/shameera/spotify/hackweek/scio-refined/macros/src/main/scala-2.12",
+            "/Users/shameera/spotify/hackweek/scio-refined/macros/src/main/scala",
+            "/Users/shameera/spotify/hackweek/scio-refined/macros/src/main/java",
+            "/Users/shameera/spotify/hackweek/scio-refined/macros/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
+            "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+        ],
+        "out": "/Users/shameera/spotify/hackweek/scio-refined/.bloop/macros",
+        "classesDir": "/Users/shameera/spotify/hackweek/scio-refined/.bloop/macros/scala-2.12/classes",
+        "resources": [
+            "/Users/shameera/spotify/hackweek/scio-refined/macros/src/main/resources",
+            "/Users/shameera/spotify/hackweek/scio-refined/macros/target/scala-2.12/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.10",
+            "options": [
+                "-Xplugin:/Users/shameera/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalamacros/paradise_2.12.10/2.1.1/paradise_2.12.10-2.1.1.jar"
+            ],
+            "jars": [
+                "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-library.jar",
+                "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar",
+                "/Users/shameera/.sbt/boot/scala-2.12.10/lib/jline.jar",
+                "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar",
+                "/Users/shameera/.sbt/boot/scala-2.12.10/lib/jansi.jar",
+                "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar"
+            ],
+            "analysis": "/Users/shameera/spotify/hackweek/scio-refined/macros/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/shameera/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.10/scala-reflect-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/shameera/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.10",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/shameera/.sbt/boot/scala-2.12.10/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/shameera/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
